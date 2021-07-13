@@ -8,7 +8,7 @@ function palindromeCheck(string){
 
     var reverseWord = "";
 
-    for(i = string.length; i >= 0; i--){
+    for(i = string.length - 1; i >= 0; i--){
         reverseWord += string.charAt(i);
     }
 
